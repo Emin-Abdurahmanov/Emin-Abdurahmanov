@@ -1,9 +1,6 @@
 ### Hi there 👋
-- 🔭 I’m currently working on small scale JavaScript projects
-- 🌱 I’m currently learning JavasScript, PHP and enrolled in university courses.
-- 💬 Ask me about anything.
+- 🔭 I’m currently working on myself
 - 📫 How to reach me: <a href = "mailto: eminabdurahmanov321@gmail.com"> eminabdurahmanov321@gmail.com</a>
-- ⚡ Fun fact: I can solve rubics cube :) 
 <!--
 **Emin-Abdurahmanov/Emin-Abdurahmanov** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
