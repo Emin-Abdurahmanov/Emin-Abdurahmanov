@@ -1,0 +1,43 @@
+/* Color Palette:
+        Blue:               #1da1f3
+        Dark:               #14171c
+        Dark-Gray:          #657787
+        Gray:               #aab8c3
+        Light-Gray:         #e1e8ed
+        Extra Light Gray:   #f5f8fb 
+*/
+
+*{
+    margin: 0px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+h1{
+    font-size: 3rem;
+    color: #de0707;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between !important;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+}
+.navbar-nav{
+    margin-left: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    font-size: large;
+    color: white !important;
+}
+.navbar-nav a{
+    color: white;
+    text-decoration: none;
+}
+
