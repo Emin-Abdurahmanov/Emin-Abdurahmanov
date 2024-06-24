@@ -23,10 +23,10 @@ h1{
 .navbar{
     display: flex;
     width: 100%;
-    justify-content: space-between !important;
+    justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #333;
+    background-color: #14171c;
 }
 .navbar-nav{
     margin-left: 200px;
@@ -34,7 +34,6 @@ h1{
     justify-content: space-evenly;
     width: 50%;
     font-size: large;
-    color: white !important;
 }
 .navbar-nav a{
     color: white;
