@@ -57,9 +57,35 @@ h1{
 }
 
 /* CONTACT FORM */
+.contact{
+    padding: 50px;
+    background-image: url('img/pen.png');
+    background-size: cover;
+
+}
 .contact-form{
     width: 70%;
     margin: 0 auto;
+}
+.contact-form button{
+    background-color: #1da1f3;
+    color: white;
+    margin: 20px 0px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-form button:hover{
+    /* background-color: #0e6eb8; */
+    outline: 1px solid #1da1f3;
+    color: #1da1f3;
+}
+.form-control{
+    border: 1px solid #657787;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.form-control:focus{
+   box-shadow: none;
 }
 
 /* FOOTER */
@@ -71,6 +97,30 @@ footer{
     background-color: #14171c;
     color: white;
 }
+
+.pages a{
+    color:#657787;
+    text-decoration: none;
+}
+.pages a:hover{
+    color: #1da1f3;
+}
+.pages .active{
+    color: #ffffff;
+}
+.quote-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 0px;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #657787;
+}
+.quote * {
+    display: block;
+    text-align: right;
+}
 footer ul{
     list-style: none;
 }
@@ -81,10 +131,15 @@ footer ul li{
     margin: 50px 0px;
     display: flex;
     justify-content: center;
+    width: 100%;
+    min-width: fit-content;
 }
 .socials-list li{
     display: inline-block;
     margin: 0px 10px;
+}
+.socials-list li:hover a{
+    color:#1da1f3;
 }
  .socials-list a{
     color: white;
@@ -96,3 +151,16 @@ footer ul li{
     justify-content: center;
     align-items: center;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) { 
+    /* Your CSS code for mobile devices */
+.contact-form{
+    width: 100%;
+}
+}
+
+@media (min-width: 769px) and (max-width: 1024px) { /* Your CSS code for tablets */ }
+
+@media (min-width: 1025px) { /* Your CSS code for desktops */ }

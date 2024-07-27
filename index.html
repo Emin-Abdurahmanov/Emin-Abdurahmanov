@@ -84,25 +84,26 @@
                 </article>
             </div>
         </section>
-        <section>
+        <section class="contact">
             <h2 class="title">Contact Me</h2>
             <div class="container">
+
                     <form class="contact-form" action="contact.php" method="post">
                             <div class="row mb-4">
-                                <div class="form-group form-floating col-6">
-                                    <input type="text" class="form-control" name="name" id="floatingName" placeholder="Name">
-                                    <label for="floatingName" for="floatingInput">Name</label>
+                                <div class="form-group col-12 col-sm-6">
+                                    <label class="p-2" for="name">Name </label>
+                                    <input type="text" class="form-control" name="name" id="name" placeholder="Name">
                                 </div>
-                                <div class="form-group form-floating col-6">
-                                    <input type="email" class="form-control" name="email" id="floatingEmail" placeholder="Email">
-                                    <label for="floatingEmail">Email</label>
+                                <div class="form-group col-12 col-sm-6">
+                                    <label class="p-2" for="email">Email </label>
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
                                 </div>
                             </div>
                                 <div class="form-group  col-12">
-                                    <label for="message">Message</label>
-                                    <textarea name="message" class="form-control" id="message" cols="30" rows="10"></textarea>
+                                    <label class="p-2" for="message">Message </label>
+                                    <textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Your message here"></textarea>
                                 </div>
-                            <button type="submit">Send</button>
+                            <button class="btn" type="submit">Send</button>
                     </form>
             </div>
 
@@ -112,21 +113,24 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-4">
-                    <ul>
-                        <li><a href="#">Home</a></li>
+                <div class="col-12 col-sm-3">
+                    <ul class="pages">
+                        <li><a class="active" href="#">Home</a></li>
                         <li><a href="#">About Me</a></li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-12 col-sm-8">
-                    <p>Subscribe to my newsletter</p>
-                    <form action="subscribe.php" method="post">
-                        <input type="email" name="email" id="email" placeholder="Enter your email">
-                        <button type="submit">Subscribe</button>
-                    </form>
+                <div class="col-12 col-sm-9 quote-wrapper">
+
+                    <div class="quote">
+                        <blockquote class="quote-content">
+                            "The only way to do great work is to love what you do."
+                        </blockquote>
+                        <p class="quote-author">- Steve Jobs</p>
+                    </div>
+
                 </div>
                 <div class="col-12">
                     <ul class="socials-list">
