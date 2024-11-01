@@ -1,10 +1,10 @@
 # About Me
 
-Hi, I do some weird stuff for fun.
+Hi, I like pain.
 
 - 📫 Links: <a href = "mailto: eminabdurahmanov321@gmail.com"> eminabdurahmanov321@gmail.com</a>
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/emin-abd/)
-- [![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter)](https://twitter.com/Emin13888126)
+- [![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter)](https://twitter.com/em1nabd)
 
 if( I have free time){
       we can play chess.}
