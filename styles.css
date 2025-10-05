@@ -64,14 +64,14 @@ h1{
 /* INTRO SECTION */
 #intro {
     position: relative;
-    background: linear-gradient(35deg, #64c4ff, rgb(204, 163, 254)), no-repeat center center;
+    background: linear-gradient(35deg, #1da1f3, #a1dafd);
     background-size: cover;
-    color: white;
-    padding: 50px;
+    color: #fff;
+    padding: 60px 0;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    height: 70vh; /* Reduced height */
+    height: 70vh;
 }
 /* .intro-image{
 
